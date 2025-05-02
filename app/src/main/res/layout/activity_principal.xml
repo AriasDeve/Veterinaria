@@ -97,12 +97,14 @@
             android:layout_marginTop="24dp" />
 
         <TextView
+            android:id="@+id/btn_click"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¡Haz clic aquí!"
             android:textColor="#FF1493"
             android:textStyle="bold"
             android:layout_marginTop="4dp" />
+
     </LinearLayout>
 
 </LinearLayout>
