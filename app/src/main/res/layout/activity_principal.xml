@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
     tools:context=".PrincipalActivity">
 
 
@@ -23,14 +24,34 @@
             android:contentDescription="Logo veterinaria"
             android:layout_marginTop="40dp" />
 
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_container_rounded"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_back">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="cursive"
             android:text="Bienvenido"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#8A2BE2"
+            tools:ignore="HardcodedText,TextContrastCheck"
             android:layout_marginTop="20dp" />
+
+
+
+
 
         <EditText
             android:id="@+id/emailInput"
@@ -88,6 +109,7 @@
                 android:src="@drawable/ic_fb"
                 android:contentDescription="Facebook"
                 android:layout_marginStart="16dp" />
+        </LinearLayout>
         </LinearLayout>
 
         <TextView
