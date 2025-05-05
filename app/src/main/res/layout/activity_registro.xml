@@ -23,6 +23,7 @@
             android:contentDescription="@string/volver"
             android:layout_marginTop="8dp"
             android:layout_marginStart="8dp"
+            android:onClick="irPrincipal"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 

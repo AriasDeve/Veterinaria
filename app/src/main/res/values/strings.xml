@@ -8,4 +8,6 @@
     <string name="nete">Únete</string>
     <string name="registrar">REGISTRAR</string>
     <string name="registrar_a">REGISTRAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

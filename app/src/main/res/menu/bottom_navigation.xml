@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Clinica"
+        android:icon="@drawable/ic_clinica"
+        android:title="Clínica"/>
+    <item
+        android:id="@+id/Tienda"
+        android:icon="@drawable/ic_tienda"
+        android:title="Tienda"/>
+    <item
+        android:id="@+id/Inicio"
+        android:icon="@drawable/ic_inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/Mascota"
+        android:icon="@drawable/ic_mascota"
+        android:title="Mascota"/>
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="Perfil"/>
+
+</menu>
